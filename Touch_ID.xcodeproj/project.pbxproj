@@ -13,6 +13,7 @@
 		EE77DEDA2609E4470081A79E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE77DED82609E4470081A79E /* Main.storyboard */; };
 		EE77DEDC2609E4470081A79E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE77DEDB2609E4470081A79E /* Assets.xcassets */; };
 		EE77DEDF2609E4470081A79E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE77DEDD2609E4470081A79E /* LaunchScreen.storyboard */; };
+		EE77DEEA2609EBFE0081A79E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE77DEE82609EBE10081A79E /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE77DEDB2609E4470081A79E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE77DEDE2609E4470081A79E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE77DEE02609E4470081A79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE77DEE82609EBE10081A79E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE77DEEA2609EBFE0081A79E /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				EE77DED12609E4470081A79E /* Touch_ID */,
 				EE77DED02609E4470081A79E /* Products */,
+				EE77DEE72609EBE10081A79E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				EE77DEE02609E4470081A79E /* Info.plist */,
 			);
 			path = Touch_ID;
+			sourceTree = "<group>";
+		};
+		EE77DEE72609EBE10081A79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE77DEE82609EBE10081A79E /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
